@@ -50,7 +50,7 @@ const PostForm = () => {
     const { author, location, description } = user;
     const img = Image.image;
 
-    const FetchData = await fetch("http://localhost:5000/post", {
+    const FetchData = await fetch("https://instaback-xngr.onrender.com/post", {
       method: "POST",
       headers: {
         "content-Type": "application/json",

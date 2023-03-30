@@ -20,7 +20,7 @@ export default  function  PostView() {
   function getData()
   {
     console.log("hi");
-     axios.get("http://localhost:5000/getpost").then((response)=>{
+     axios.get("https://instaback-xngr.onrender.com/getpost").then((response)=>{
       const callData=response.data.result;
       setInformation(callData);
       console.log(callData);
