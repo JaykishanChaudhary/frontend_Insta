@@ -1,0 +1,39 @@
+.headbox{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    margin-left: 50px;
+}
+
+#logoimg{
+    margin-top: 10px;
+    height: 64px;
+    width: 50px;
+}
+
+.instahead{
+    font-size: 60px;
+    margin: 0px;
+    font-weight: 400;
+    color: #006238;
+}
+
+hr{
+    /* color: #0aab65; */
+    background-color: #0aab65;
+    height: 1px;
+    margin: 0;
+}
+
+#cameraimg{
+    height: 3rem;
+    margin-top: 1rem;
+    margin-left: 45rem;
+}
+
+.sharebutton{
+    height: 3rem;
+    width: 8rem;
+    margin-left: 38rem;
+    margin-top: 2rem;
+}

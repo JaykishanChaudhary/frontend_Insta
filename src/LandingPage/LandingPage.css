@@ -1,0 +1,47 @@
+.landingPage{
+    display:inline-grid;
+    /* flex-direction: column; */
+    grid-template-columns: 300px 300px 300px 300px;
+    column-gap: 10px;
+    
+}
+
+/* .leftpart{
+   margin-left: 20px;
+   margin-top: 20px;
+
+} */
+
+.rightmost{
+    background-color: white;
+    /* width: 300px; */
+}
+
+.leftmost{
+    background-color:white;
+    /* width: 300px; */
+}
+
+button{
+    margin-top: 10px;
+    margin-left: 200px;
+    color: #006238;
+    border: 2px solid #006238;
+    border-radius: 5px;
+    height: 30px;
+    width: 65px;
+    font-size: 17px;
+}
+
+#landingimg{
+    margin-top: 50px;
+}
+
+.heading{
+    margin-top: 250px;
+    margin-left: 160px;
+    color: #006238;
+    font-size: 24px;
+    font-style:normal;
+    text-decoration: none;
+}
